@@ -1,0 +1,125 @@
+/*
+
+selector {
+    key: value;
+    key: value;
+    key: value;
+    key: value;
+    
+};
+
+*/
+
+/* select with tagname */
+
+
+
+h3{
+    /*color: blue !important;*/
+}
+
+h3{
+    /*color: orange;*/
+}
+
+
+
+.custom-title{
+    font-size: 25px;
+}
+
+
+.custom-police{
+    font-family: fantasy;
+}
+
+
+#uniqe-id{
+    font-size: 40px;
+}
+
+
+
+.test{
+    height: 80px;
+    width: 80px;
+    background-color: #5b9ed3;
+    border: 13px solid yellow;
+    padding: 15px;
+    margin: 15px;
+}
+
+
+.demo-p{
+    font-size: 20px;
+    color: #8c8c8c;
+    font-family: sans-serif;
+    text-align: justify;
+    letter-spacing: 8px;
+    line-height: 32px;
+    text-decoration: underline;
+    border: 1px solid black;
+    /* padding: 15px; */
+    /* padding: 61px 45px; */
+    /* padding: 31px 18px 30px 19px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 20px;
+}
+
+
+.list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 1px solid gray;
+}
+
+.list > li {
+    color: #5e5e5e;
+    border-bottom: 1px solid gray;
+    padding: 15px 0 10px 15px;
+}
+
+
+.list > li:first-child {
+    color: orange; 
+}
+
+
+.list > li:last-child {
+    border: 0; 
+}
+
+
+.list > li:nth-child(2n + 1) {
+    background-color: gray;
+    color: white;
+}
+
+
+.square{
+    height: 100px;
+    width: 100px;
+    background-color: #ffc107;
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    background-color: #ffc107;
+    border-radius: 50%;
+}
+
+
+
+
+.banner{
+    background-image: url(../imgs/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 256px;
+    padding: 15px;
+}
