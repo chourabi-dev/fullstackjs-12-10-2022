@@ -1,0 +1,12 @@
+@media screen  and ( max-width: 500px )  {
+    
+    .row{
+        display: block;
+    }
+    
+    .col-xs-12{
+        width: 100% !important;
+    }
+}
+
+ 
