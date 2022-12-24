@@ -1,0 +1,26 @@
+.my-alert{
+    font-size: 35px;
+}
+
+.my-navbar{
+    background-color: #3f51b5;
+}
+
+
+
+.socials{
+    display: block;
+}
+
+.socials > .social{
+    display: inline-block;
+    margin-right: 15px;
+
+}
+
+
+.socials > .social > a > i{
+    font-size: 35px;
+    font-size: 56px;
+    color: #ff9800;
+}
