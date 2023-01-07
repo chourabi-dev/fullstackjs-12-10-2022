@@ -62,6 +62,7 @@ body{
 
 .content > .messages{
     height: calc( 100% - 45px );
+    overflow-y: scroll;
 }
 
 .reply-zone > input{
