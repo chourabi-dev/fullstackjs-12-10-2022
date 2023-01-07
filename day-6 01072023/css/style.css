@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+}
+
+.bloc-chat{
+    height: 45px;
+    width: 363px;
+    border: 1px solid #bababa;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+
+.bloc-chat.active-chat{
+    height: 500px;
+}
+
+.bloc-chat > .parent{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.close{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: none;
+}
+
+
+.bloc-chat.active-chat > .parent > .close{
+     display: block;
+}
+
+#chat-open{
+    text-align: center;
+    padding-top: 11px;
+    display: block;
+}
+
+.bloc-chat.active-chat > .parent > #chat-open{
+    display: none;
+}
+
+
+.content{
+    display: none;
+    height: 100%;
+}
+
+.bloc-chat.active-chat > .parent > .content{
+    display: block;
+}
+
+
+.reply-zone{
+    height: 45px;
+    display: flex;
+}
+
+.content > .messages{
+    height: calc( 100% - 45px );
+}
+
+.reply-zone > input{
+    height: 100%;
+    border: 0;
+    outline: none;
+    width: 100%;
+}
+
+.reply-zone > button{ 
+    border: 0; 
+}
+
+.income-message{
+    display: flex;
+    justify-content: start;
+}
+
+.income-message > .message{
+    padding: 14px 15px;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 30px;
+}
+
+
+.bloc-message{
+    margin: 9px;
+}
+
+.outgoing-message{
+    display: flex;
+    justify-content: end;
+}
+
+.outgoing-message > .message{
+    padding: 14px 15px;
+    background-color: rgb(157, 206, 239);
+    color: black;
+    font-family: sans-serif;
+    border-radius: 30px;
+}
+ 
