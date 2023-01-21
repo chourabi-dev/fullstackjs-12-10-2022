@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.swicth-btn{
+  width: 100px;
+  height: 40px;
+  background-color: #cfcfcf;
+  border-radius: 30px;
+  position: relative;
+}
+
+.swicth-btn > div{
+  position: absolute;
+  left: 0;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: white;
+  transition: left 0.5s ease-in-out;
+}
+
+.swicth-btn.active > div{
+  left: 60px;
+}
+
+.swicth-btn.active{
+  background-color: #abe482;
+}

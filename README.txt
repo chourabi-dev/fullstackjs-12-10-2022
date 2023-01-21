@@ -15,6 +15,8 @@ start the app:
 npm start
 
 
-
 add bootstrap:
 npm i bootstrap
+
+add routing to project
+npm install react-router-dom

@@ -1,7 +1,11 @@
  
 import './App.css';
 import Contact from './components/Contact';
+import Counter from './components/Counter';
+import LikeButton from './components/LikeButton';
 import Product from './components/Produc';
+import ShoppingList from './components/ShoppingList';
+import SwitchBtn from './components/Switch';
 
 function App() {
   /**
@@ -42,16 +46,41 @@ function App() {
 
         <div className='row'>
         {
-          products.map((p)=>{
+          /*products.map((p)=>{
             return( 
                   <div className='col-sm-4'>
                     <Product photoURL={ p.photoURL } title={ p.title } price={p.price}  />
                   </div>
                );
-          })
+          })*/
         }
 
         </div>
+
+
+
+        {
+          /**
+           * <Counter />
+           */
+        }
+
+
+      {
+        /**
+         * <LikeButton />
+         */
+      }
+
+      {
+        /**
+         * <SwitchBtn />
+      
+         */
+      }
+
+
+      <ShoppingList />
 
 
 
