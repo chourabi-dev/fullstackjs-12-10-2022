@@ -20,3 +20,37 @@ npm i bootstrap
 
 add routing to project
 npm install react-router-dom
+
+
+
+
+1 create serever
+npm init
+
+2 install express
+npm i express
+
+3 install devtool nodemon
+npm i -g nodemon
+
+4 add body parser
+npm install body-parser
+
+
+
+download mongodb
+https://www.mongodb.com/try/download/community
+
+
+
+
+
+
+
+
+
+
+
+
+
+
