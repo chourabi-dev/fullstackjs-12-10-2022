@@ -3,7 +3,7 @@ const app = express()
 const port = 8080
 var bodyParser = require('body-parser');
 const { getTodaysDate, getMonth } = require('./modules/datemodules');
-const { createNewProduct } = require('./modules/produits');
+const { createNewProduct, getAllProducts, deleteProductByID, updateProductByID, searchProducts, outOfStockProcutsUpdate } = require('./modules/produits');
 
 
 app.use( bodyParser.json() );
@@ -63,6 +63,33 @@ app.post("/api/product/create-product",(req,res)=>{
     createNewProduct(req,res);
 })
 
+
+app.get("/api/product/list",(req,res)=>{
+    
+
+    // JWT JSON WEB TOKEN !!
+    console.log(req.headers);
+
+    getAllProducts(req,res);
+})
+
+
+app.post("/api/product/delete",(req,res)=>{
+    deleteProductByID(req,res);
+})
+  
+app.post("/api/product/update",(req,res)=>{
+    updateProductByID(req,res);
+})
+  
+
+app.get("/api/product/search",(req,res)=>{
+    searchProducts(req,res);
+})
+  
+app.post("/api/product/out-of-stock",(req,res)=>{
+    outOfStockProcutsUpdate(req,res);
+})
   
 
 
