@@ -41,13 +41,22 @@ npm install body-parser
 download mongodb
 https://www.mongodb.com/try/download/community
 
+add mongodb driver to server
+npm i mongodb
 
 
+// security
+
+npm i jsonwebtoken
 
 
+//  hash password
+
+npm install sha1
 
 
-
+// add CORS
+npm i cors
 
 
 
