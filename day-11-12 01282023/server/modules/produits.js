@@ -14,7 +14,7 @@ exports.createNewProduct = function(req,res){
             const db = server.db("apiproducttest");
 
             db.collection("products").insertOne( body ).then(()=>{
-                res.send({ success:true, message:"product inserted." })
+                res.send({ success:true, message:"product inserted sucessfully." })
             }).catch(()=>{
                 res.send( { success:false, message:"err insert product" } );
             })

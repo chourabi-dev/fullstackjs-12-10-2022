@@ -11,12 +11,31 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import AuthPage from './pages/Auth';
+import Dashboard from './pages/Dashboard';
+import CreateProductPage from './pages/CreateProduct';
+import UpdateProductPage from './pages/UpdateProduct';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <AuthPage />,
   },
+  {
+    path: "/dashboard",
+    element: <Dashboard />,
+  },
+  {
+    path: "/dashboard/add-product",
+    element: <CreateProductPage />,
+  },
+
+  {
+    path: "/dashboard/update-product/:id",
+    element: <UpdateProductPage />,
+  },
+
+  
+  
 ]);
 
 
